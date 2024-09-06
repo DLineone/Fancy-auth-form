@@ -32,7 +32,7 @@ function AuthForm() {
             placeholder="Email"
             {...register("email")}
             aria-invalid={errors.email ? "true" : "false"}
-            value={"admin@mail.com"}
+            defaultValue={"admin@mail.com"}
             type="email"
             required
           />
@@ -42,7 +42,7 @@ function AuthForm() {
             type="password"
             required
             aria-invalid={errors.password ? "true" : "false"}
-            value={"admin"}
+            defaultValue={"admin"}
             {...register("password")}
           />
           <input type="submit" value="Log in" />
