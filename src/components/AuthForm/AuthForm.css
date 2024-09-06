@@ -82,3 +82,8 @@
   color: #687387;
   font-size: 15px;
 }
+
+.error {
+  color: red;
+  font-size: 16px;
+}

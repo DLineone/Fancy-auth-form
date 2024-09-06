@@ -45,6 +45,9 @@ function AuthForm() {
             defaultValue={"admin"}
             {...register("password")}
           />
+
+          {error ? <p className="error">wrong credentials</p> : null}
+
           <input type="submit" value="Log in" />
         </div>
       ) : (
